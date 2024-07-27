@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Logo.png" alt="Logo" style="width: 50px; height: auto;"> Geet</li>
+            <li><a href="index.html">Songs</a></li>
+            <li><a href="Home.html">Home</a></li>
+        </ul>
+    </nav>
+    
+    <section class="team-section" id="team-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-12 heading-section text-center">
+                    <h1 class="big big-2">OUR TEAM</h1>
+                    <h2 class="mb-4">Meet Our Developers</h2>
+                    <p><strong>A sense of dedication to high-quality digital craftsmanship while embracing visionary thinking and innovative approaches in the field of web design. It reflects a team that aspires to go beyond the ordinary, seeking to create exceptional and forward-looking digital experiences.</strong></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="block-18">
+                        <div class="img" style="background-image: url('Nikhil.jpg');"></div>
+                        <div class="content text-center">
+                            <strong><h3>Nikhil Shakya</h3></strong>
+                            <h4>Web Developer</h4>
+                            <p>Worked as Frontend Developer and Designer<br>A versatile skill set that combines technical expertise with creative design capabilities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="block-18">
+                        <div class="img" style="background-image: url('Niranjan.jpg');"></div>
+                        <div class="content text-center">
+                            <strong><h3>Niranjan Reddy</h3></strong>
+                            <h4>Web Developer</h4>
+                            <p>Worked as a Backend Developer and Data Collector<br>A diverse skill set combining backend development expertise with the ability to gather and manage data effectively.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Contact: go.renewable.tech@gmail.com</p>
+    </footer>
+    <div class="footer">
+        <p>&copy; <span id="year"></span> Geet Streaming and Discovery. All rights reserved.</p>
+    </div>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
